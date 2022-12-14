@@ -1,6 +1,6 @@
-import { getSession, useSession } from 'next-auth/react'
+// import { getSession, useSession } from 'next-auth/react'
 
-function Blog({ data }) {
+function Blog() {
     return <h1>New blog Post</h1>
     // const {data: session} = useSession()
     // console.log({session})
